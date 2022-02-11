@@ -171,6 +171,26 @@
     }
 }
 
+.ex-13-button:hover .ex-13-top-white{
+    animation: totalTurn 2s linear infinite;
+}
+
+@keyframes totalTurn {
+    0%{
+        left: 10%;
+        top: -10px;
+    }
+
+    30%{
+        left: calc(100%-30px);
+        top: -10px;
+    }
+
+    100%{
+        left: 10%;
+        top: -10px;
+    }
+}
 
 
 .ex-12-bottom-white, .ex-13-bottom-white {
