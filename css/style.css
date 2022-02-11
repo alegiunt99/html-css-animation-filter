@@ -172,10 +172,10 @@
 }
 
 .ex-13-button:hover .ex-13-top-white{
-    animation: totalTurn 2s linear infinite;
+    animation: totalTurnTop 2s linear infinite;
 }
 
-@keyframes totalTurn {
+@keyframes totalTurnTop {
     0%{
         left: 10%;
         top: -10px;
@@ -232,3 +232,19 @@
     }
 }
 
+
+.ex-13-button:hover .ex-13-bottom-white{
+    animation: totalTurnBottom 2s linear infinite;
+}
+
+@keyframes totalTurnBottom{
+    0%{
+        bottom: -10;
+        right: 20%;
+    }
+
+    100%{
+        bottom: -10;
+        right: 20%;
+    }
+}
