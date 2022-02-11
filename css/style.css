@@ -70,6 +70,14 @@
     filter: grayscale(100%);
 }
 
+.ex-7-img{
+    transition: 1s;
+}
+
+.ex-7-img:hover{
+    filter: blur(3px) brightness(45%)
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
