@@ -239,8 +239,28 @@
 
 @keyframes totalTurnBottom{
     0%{
-        bottom: -10;
+        bottom: -10px;
         right: 20%;
+    }
+
+    30%{
+        right: calc(100% - 30px);
+        bottom: -10px;
+    }
+
+    45%{
+        right: calc(100% - 30px);
+        bottom: 100%;
+    }
+
+    75%{
+        right: 0px;
+        bottom: 100%;
+    }
+
+    90%{
+        right: -15px;
+        bottom: -10px;
     }
 
     100%{
